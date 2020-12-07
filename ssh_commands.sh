@@ -7,8 +7,6 @@ sudo apt install vim
 sudo apt install htop
 sudo apt install zsh
 sudo apt install tmux
-mkdir tmux
-cd tmux
 sudo apt install git
 git clone https://github.com/gpakosz/.tmux.git
 chsh -s $(`which zsh`) $USER
