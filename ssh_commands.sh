@@ -15,8 +15,9 @@ sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools
 # vim .zshrc -> change plugin to "agnoster"# tmux new -s SESSIONNAME
 # TODO ADD 
 # ssh-keygen -t ed25519 -C "user@mailprovider.com"
-reboot
+
 sudo apt install radare2
 git clone https://github.com/pwndbg/pwndbg
 cd pwndbg
 ./setup.sh
+reboot
